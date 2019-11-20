@@ -1,5 +1,35 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# tools
+
+[iconfinder](https://www.iconfinder.com/search/?q=todo&price=free)  
+
+## :cloud: Installation
+
+```sh
+npm i
+npm start
+open localhost:3000
+
+# To build the app for production, run the following command:
+npm run build
+```
+
+## material-ui
+
+[buttons](https://material-ui.com/zh/components/buttons/)  
+[Text Fields（文本框）](https://material-ui.com/zh/components/text-fields/)  
+
+[Invalid hook call. Hooks can only be called inside of the body of a function component when apply style to class base component with material-ui](https://stackoverflow.com/questions/56329992/invalid-hook-call-hooks-can-only-be-called-inside-of-the-body-of-a-function-com)
+
+material-ui makeStyles function only works inside function components
+
+[Material-UI](https://material-ui.com/zh): A popular React UI framework   
+`yarn add @material-ui/core`  
+[Material Icons](https://material-ui.com/zh/components/material-icons/)  
+`yarn add @material-ui/icons`  
+
 ## Available Scripts
 
 In the project directory, you can run:
