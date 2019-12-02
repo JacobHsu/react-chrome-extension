@@ -1,25 +1,22 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+  "short_name": "My Bookmarks",
+  "name": "My Bookmarks",
+  "version": "1.1",
+  "description": "A browser action with a popup dump of all bookmarks, including search, add, edit and delete.",
+  "permissions": [
+    "bookmarks"
   ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "browser_action": {
+      "default_title": "My Bookmarks",
+      "default_icon": "icon32.png",
+      "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'sha256-0nQXp4nN/Rx8lxl6g8sX/josZokWwdpveLhHKUaubSI=' https://ajax.googleapis.com; object-src 'self'"
 }

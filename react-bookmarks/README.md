@@ -1,4 +1,22 @@
+# My Bookmarks
+
+A browser action with a popup dump of all bookmarks, including search, add, edit and delete.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+index.css
+
+```css
+body {
+  margin: 0;
+  width: 350px;
+  height: 500px;
+}
+```
+
+## References
+
+[HTML Color Values](https://www.w3schools.com/colors/colors_hex.asp)
 
 ## Available Scripts
 
