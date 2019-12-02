@@ -4,7 +4,17 @@
 
 `npx create-react-app react-ext`
 
-# npm 
+## Sample Extensions
+
+developer.chrome [Sample Extensions](https://developer.chrome.com/extensions/samples)  
+
+### My Bookmarks
+
+`npx create-react-app react-bookmarks`
+`cd react-bookmarks`
+`yarn start`
+
+## npm 
 
 `react-cookie`  
 
@@ -37,10 +47,17 @@ Refused to execute inline script because it violates the following Content Secur
 [Material-UI](https://material-ui.com/zh): A popular React UI framework  
 `yarn add @material-ui/core`  
 
-# Referneces
+## Samples
+
+[手写chrome extension](https://juejin.im/post/5d3c4dc0f265da1bd2613562)  
+
+## Referneces
 
 [How to build a Chrome Extension using your React App](https://medium.com/@rajithaeye/how-to-build-a-chrome-extension-using-your-reactjs-app-3655dc08fd16)  
 [Quickstart a Chrome Extension with create-react-app](https://www.lsenta.io/posts/chrome-extension-react-quickstart/)  
 
 [Web 安全之 CSP（Content Security Policy）](https://kknews.cc/code/abx9ya6.html)  
 [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)  
+
+[MetaMask Browser Extension](https://github.com/MetaMask/metamask-extension)
+[Chrome Extension 開發與實作 30-正式發佈擴充功能](https://ithelp.ithome.com.tw/articles/10188969)  
