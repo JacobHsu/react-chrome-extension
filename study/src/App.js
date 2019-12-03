@@ -5,6 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div id="red">red</div>
+      <div id="blue">blue</div>
+      <div id="green">green</div>
+      <div id="yellow">yellow</div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

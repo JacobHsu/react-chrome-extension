@@ -14,6 +14,35 @@ developer.chrome [Sample Extensions](https://developer.chrome.com/extensions/sam
 `cd react-bookmarks`
 `yarn start`
 
+### Page Redder
+
+```js
+  "browser_action": {
+      "default_title": "Hello World",
+      "default_icon": "icon32.png",
+      "default_popup": "index.html"  有它背景不會生效 "background.js"
+  },
+```
+
+satendra02/[react-chrome-extension](https://github.com/satendra02/react-chrome-extension)
+
+### A browser action which changes its icon when clicked
+
+chrome.runtime.onInstalled.addListener background.js 才生效 pop.js 無法
+
+### A browser action with a popup that changes the page color
+
+`<div id="red">red</div>` 放App.js
+
+### BrowsingData API: Basics
+
+browsingData.remove
+
+### Extensions
+
+Cookie API Test Extension  
+Notification Demo  
+
 ## npm 
 
 `react-cookie`  

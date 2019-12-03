@@ -4,6 +4,7 @@
   "version": "0.1",
   "description": "Hello World",
   "permissions": [
+    "activeTab"
   ],
   "browser_action": {
       "default_title": "Hello World",
