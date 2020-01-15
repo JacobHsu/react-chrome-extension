@@ -2,6 +2,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `npx create-react-app my-app`
 
+## References
+
+[Material-UI](https://github.com/mui-org/material-ui)
+[App Bar](https://material-ui.com/components/app-bar/)
+`yarn add @material-ui/core @material-ui/icons`
+
+## Debug
+
+[Why might Chrome (inside Electron) suddenly redirect to chrome-error://chromewebdata?](https://stackoverflow.com/questions/55715384/why-might-chrome-inside-electron-suddenly-redirect-to-chrome-error-chromeweb?rq=1)
+in DevTools, making sure that `"Preserve log"` is checked.
+
 ## Available Scripts
 
 In the project directory, you can run:
