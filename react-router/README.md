@@ -8,6 +8,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [App Bar](https://material-ui.com/components/app-bar/)
 `yarn add @material-ui/core @material-ui/icons`
 
+## Note
+
+擴充套件導覽列 連結失效
+chrome-error://chromewebdata
+
+```js
+ <Link href={"/List"} color="inherit">
+    Index.html
+ </Link>
+```
+
+要指定為 index.html
+
+```js
+ <Link href={"/index.html"} color="inherit">
+    Index.html
+ </Link>
+```
+
 ## Debug
 
 [Why might Chrome (inside Electron) suddenly redirect to chrome-error://chromewebdata?](https://stackoverflow.com/questions/55715384/why-might-chrome-inside-electron-suddenly-redirect-to-chrome-error-chromeweb?rq=1)
